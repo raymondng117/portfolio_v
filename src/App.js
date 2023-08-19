@@ -1,20 +1,18 @@
 import Navbar from './Navbar';
 import Home from './Home';
-import {HashRouter as Router, Route, Routes} from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 import CreateBlog from './CreateBlog';
 import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
 
 function App() {
   return (
-    
-    <Router>
+  
       <div className="App">
         <Navbar />
 
         <div className="content">
           <Routes>
-
              {/* route is an element used to wrapped the rendering components and give them a path  */}
             <Route path='/' element = {<Home />}> </Route>
             <Route path='/create' element = {<CreateBlog />}> </Route> 
@@ -27,10 +25,6 @@ function App() {
           </Routes>
         </div>
       </div>
-
-      
-
-    </Router>
   );
 }
 
