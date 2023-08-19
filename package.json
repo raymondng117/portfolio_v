@@ -1,5 +1,5 @@
 {
-  "homepage": "https://raymondng117.github.io/BlogsProject",
+  "homepage": "https://Nywiz.github.io/portfolio",
   "name": "dojo-blog",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.1",
     "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -17,9 +18,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "npm-run-all -p start:json-server start:react ",
-    "start:react": "react-scripts start",
-    "start:json-server": "npx json-server --watch data/db.json --port 8000",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
