@@ -3,22 +3,25 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <nav className="navbar container">
-            <div className="row justify-content-between align-items-center">
-                <div className="col-5">
-                    <h1 className="mr-auto">This is Raymond</h1>
-                </div>
+        <nav className="navbar navbar-expand-lg navbar-light sticky-top" style={{ backgroundColor: "#f1356d" }}>
+            <div className="container  justify-content-between ">
+                <Link class="navbar-brand" to="/">
+                    <img src="https://th.bing.com/th/id/OIG.Z4V92v4aC0ZX_B3uMEU9?pid=ImgGn" width="40" height="40" alt="" /></Link>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <div className="col-7 justify-content-end">
-                    <ul className="list-unstyled m-0 d-flex links">
-                        <li className="ml-3"><Link to="/" className="btn btn-secondary">About me</Link></li>
-                        <li className="ml-3"><Link to="/resume" className="btn btn-secondary">Resume</Link></li>
-                        <li className="ml-3"><Link to="/projects" className="btn btn-secondary">Projects</Link></li>
-                        <li className="ml-3"><Link to="/contact" className="btn btn-secondary">Contact</Link></li>
-                    </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav mr-auto">
+                        <Link to="/" className=" nav-item active nav-link">About</Link>
+                        <Link to="/resume" className="nav-item nav-link">Resume</Link>
+                        <Link to="/projects" className="nav-item nav-link">Projects</Link>
+                        <Link to="/contact" className="nav-item nav-link">Contact</Link>
+                    </div>
                 </div>
             </div>
-        </nav>
+
+        </nav >
     );
 }
 

@@ -1,40 +1,36 @@
 const Projects = () => {
     return (
-        <article id="work" class="wrapper style2">
-        <div class="container">
-            <header>
-                <h2>Here's all the stuff I do.</h2>
-                <p>Odio turpis amet sed consequat eget posuere consequat.</p>
-            </header>
-            <div class="row aln-center">
-                <div class="col-4 col-6-medium col-12-small">
-                    <section class="box style1">
-                        <span class="icon featured fa-comments"></span>
-                        <h3>Consequat lorem</h3>
-                        <p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-                    </section>
+        <div className="container">
+            <div className="row">
+                <div className="col-sm-4 mt-5 border">
+                    <img class="card-img-top" src="https://th.bing.com/th/id/OIG.Z4V92v4aC0ZX_B3uMEU9?pid=ImgGn" alt="Card image cap"></img>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">hi</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-                <div class="col-4 col-6-medium col-12-small">
-                    <section class="box style1">
-                        <span class="icon solid featured fa-camera-retro"></span>
-                        <h3>Lorem dolor tempus</h3>
-                        <p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-                    </section>
+
+                <div className="col-sm-4 mt-5 border">
+                    <img class="card-img-top" src="https://th.bing.com/th/id/OIG.Z4V92v4aC0ZX_B3uMEU9?pid=ImgGn" alt="Card image cap"></img>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">hi</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-                <div class="col-4 col-6-medium col-12-small">
-                    <section class="box style1">
-                        <span class="icon featured fa-thumbs-up"></span>
-                        <h3>Feugiat posuere</h3>
-                        <p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-                    </section>
+
+                <div className="col-sm-4 mt-5 border">
+                    <img class="card-img-top" src="https://th.bing.com/th/id/OIG.Z4V92v4aC0ZX_B3uMEU9?pid=ImgGn" alt="Card image cap"></img>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">hi</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
             </div>
-            <footer>
-                <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-                <a href="#portfolio" class="button large scrolly">See some of my recent work</a>
-            </footer>
+
         </div>
-    </article>
     );
 }
 
