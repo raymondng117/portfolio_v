@@ -8,8 +8,6 @@
 }
 .navbar {
   padding: 20px;
-  display: flex;
-  align-items: center;
   max-width: 800px; 
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
@@ -29,8 +27,19 @@
   color: #f1356d;
 }
 .content {
-  max-width: 600px;
+  max-width: 1200px;
   margin: 40px auto;
   padding: 20px;
 }
 
+.p-intro {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+
+.circle-img {
+  width: 400px; /* Adjust the size as needed */
+  height: 400px; /* Ensure the same width and height for a square image */
+  border-radius: 50%; /* Make it circular */
+}

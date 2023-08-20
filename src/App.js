@@ -5,9 +5,9 @@ import Aboutme from './Aboutme';
 import Projects from './projects';
 import Contact from './Contact';
 
-
 function App() {
   return (
+
       <div className="App">
         <Navbar />
         <div className="content">

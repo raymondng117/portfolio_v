@@ -1,6 +1,8 @@
 const Aboutme = () => {
-    return ( <>
-    </> );
+    return (
+        <>
+        </>
+    );
 }
- 
+
 export default Aboutme;
