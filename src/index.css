@@ -8,7 +8,7 @@
 }
 .navbar {
   padding: 20px;
-  max-width: 800px; 
+  width: 1200px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
@@ -19,7 +19,7 @@
   margin-left: auto;
 }
 .navbar a {
-  margin-left: 16px;
+  margin-left: 40px;
   text-decoration: none;
   padding: 6px;
 }
@@ -27,7 +27,7 @@
   color: #f1356d;
 }
 .content {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 40px auto;
   padding: 20px;
 }
@@ -38,8 +38,3 @@
 }
 
 
-.circle-img {
-  width: 400px; /* Adjust the size as needed */
-  height: 400px; /* Ensure the same width and height for a square image */
-  border-radius: 50%; /* Make it circular */
-}
