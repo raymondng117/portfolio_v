@@ -6,12 +6,12 @@ const Home = () => {
     <div className="home mt-4">
       <article>
         <div className="container">
-          <div className="row">
-            <div className="col-xl col-12 m-4">
+          <div className="row align-items-center" style={{height:"400px"}} >
+            <div className="col-md col-12 m-4">
               <img src="https://i.natgeofe.com/k/41de528e-c521-4a29-ade6-d385d9a4e5f7/sea-otter-closeup_16x9.jpg" className="rounded-circle img-fluid" alt="" />
             </div>
 
-            <div className="col-xl-8 col-12 m-4" style={{ marginLeft: '60px' }}>
+            <div className="col-md-8 col-12 m-4" style={{ marginLeft: '60px' }}>
               <header>
                 <h1>Hi. I'm <strong>Raymond Ng</strong>.</h1>
               </header>
