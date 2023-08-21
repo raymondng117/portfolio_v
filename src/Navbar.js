@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light sticky-top">
-            <div className="container">
+            <div className="container" style={{backgroundColor:"#f1356d"}}>
                 
                 <Link class="navbar-brand" to="/">
                     <img src="https://th.bing.com/th/id/OIG.Z4V92v4aC0ZX_B3uMEU9?pid=ImgGn" width="40" height="40" alt="" /></Link>
@@ -12,8 +12,8 @@ const Navbar = () => {
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-                    <div class="navbar-nav mr-auto">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style={{backgroundColor:"#f1356d"}}>
+                    <div class="navbar-nav mr-auto" style={{backgroundColor:"#f1356d"}}>
                         <Link to="/about" className="nav-item active nav-link" >About</Link>
                         <Link to="/resume" className="nav-item nav-link" >Resume</Link>
                         <Link to="/projects" className="nav-item nav-link" >Projects</Link>
