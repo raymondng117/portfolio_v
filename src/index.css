@@ -1,5 +1,6 @@
  * {
-     font-family: "Consolas";
+     /* font-family: "Consolas"; */
+     font-family: monospace, 'Courier New', Courier ;
      background-color: #F1F1F1
  }
 
