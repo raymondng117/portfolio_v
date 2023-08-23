@@ -1,11 +1,37 @@
+
  * {
      /* font-family: "Consolas"; */
-     font-family: monospace, 'Courier New', Courier ;
+     font-family: monospace, 'Courier New', Courier;
      background-color: #F1F1F1
  }
 
  .navbar {
      background-color: #f1356d !important;
+ }
+
+ .navbar-brand {
+    font-weight: 700 !important;
+    font-size: 48px !important;
+    font-family: 'Playfair Display' !important;
+    color: #333 !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+
+ .icon-logo {
+     height: 60px;
+     width: 60px;
+     border-radius: 50%;
+
+ }
+
+ .nav-item {
+     background-color: #f1356d;
+ }
+
+ #navbarSupportedContent {
+     background-color: #f1356d;
  }
 
  .nav-item {
@@ -30,17 +56,17 @@
      border-radius: 10px !important;
      box-shadow: 7px 7px 3px #f1356d;
  }
- 
+
  .card-image {
-    border: lightgray solid !important;
-    margin: 4px;
-    border-radius: 2px !important;
-    border-width: 2px !important;
-    min-height: 150px;
-}
+     border: lightgray solid !important;
+     margin: 4px;
+     border-radius: 2px !important;
+     border-width: 2px !important;
+     min-height: 150px;
+ }
 
  .card-text {
-    font-size: 12px !important;
+     font-size: 12px !important;
  }
 
  .icon {
@@ -57,57 +83,84 @@
  }
 
  .resume-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-  }
-  
-  .resume-section {
-    margin-bottom: 40px;
-  }
-  
-  .typing-effect {
-    display: inline-block;
-    border-right: 0.15em solid transparent;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 0.5s steps(30, end), blink-caret 0.5s step-end infinite;
-  }
-  
-  .current-word {
-    border-color: black; /* Change the color for the current word */
-  }
-  
-  h1, h5 {
-    margin: 5px 0;
-  }
-  
-  ul {
-    margin: 0;
-    padding-left: 20px;
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%;
-    }
-  }
-  
-  @keyframes blink-caret {
-    from,
-    to {
-      border-color: transparent;
-    }
-    50% {
-      border-color: black;
-    }
-  }
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+     font-family: Arial, sans-serif;
+ }
 
-  .resume-section ul {
-    list-style: none; /* This removes the bullet points */
-    padding: 10; /* Removes default padding for list items */
-  }
+ .resume-section {
+     margin-bottom: 40px;
+ }
+
+ .typing-effect {
+     display: inline-block;
+     border-right: 0.15em solid transparent;
+     white-space: nowrap;
+     overflow: hidden;
+     animation: typing 0.5s steps(30, end), blink-caret 0.5s step-end infinite;
+ }
+
+ .current-word {
+     border-color: black;
+     /* Change the color for the current word */
+ }
+
+ .resume-section h5 {
+     font-weight: 400 !important;
+ }
+
+ h1,
+ h5 {
+     margin: 5px 0;
+ }
+
+ ul {
+     margin: 0;
+     padding-left: 20px;
+ }
+
+ @keyframes typing {
+     from {
+         width: 0;
+     }
+
+     to {
+         width: 100%;
+     }
+ }
+
+ @keyframes blink-caret {
+
+     from,
+     to {
+         border-color: transparent;
+     }
+
+     50% {
+         border-color: black;
+     }
+ }
+
+ .resume-section ul {
+     list-style: none;
+     /* This removes the bullet points */
+     padding: 10;
+     /* Removes default padding for list items */
+ }
+
+ .btn-outline-info {
+    color:  #f67da1 !important;
+    font-weight: 700 !important;
+    border-width: 2px;
+    width: 200px !important;
+ }
+
+
+ .fa-brands {
+    color:  #f67da1 !important; 
+ }
+
+.devicon-icon {
+    color: #f67da1 !important; 
+}
