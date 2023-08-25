@@ -93,7 +93,7 @@ const Resume = () => {
 
         <h5 className="mt-3">{typedWords[1]}</h5>
         <ul className="m-2">
-          <li>{typedWords[2]} <button button className='btn btn-outline-danger rounded-pill m-1'>{typedWords[3]}</button></li> 
+          <li>{typedWords[2]} <button button className='btn btn-outline-danger rounded-pill m-1 btn-resume-skill'>{typedWords[3]}</button></li> 
         </ul>
 
         <h5 className="mt-3">{typedWords[4]}</h5>
@@ -107,39 +107,39 @@ const Resume = () => {
 
         <h5 >{typedWords[7]}</h5>
         <div className='d-flex flex-sm-row flex-column justify-content-start'>
-          <button className='flex-fill btn btn-outline-danger rounded-pill m-1'> <i class="fa-brands fa-react"></i> {typedWords[8]}</button>
-          <button className='flex-fill btn btn-outline-danger rounded-pill m-1'> <i class="fa-brands fa-node-js me-2"></i>{typedWords[9]}</button>
-          <button className='flex-fill btn btn-outline-danger rounded-pill m-1'><i class="fa-solid fa-database me-2"></i>{typedWords[10]}</button>
-          <button className='flex-fill btn btn-outline-danger rounded-pill m-1'><i class="devicon-icon devicon-csharp-plain colored me-2"></i>{typedWords[11]}</button>
+          <button className='btn btn-outline-danger rounded-pill m-1 btn-resume-skill'><i class="fa-brands fa-react"></i> {typedWords[8]}</button>
+          <button className='btn btn-outline-danger rounded-pill m-1 btn-resume-skill'><i class="fa-brands fa-node-js me-2"></i>{typedWords[9]}</button>
+          <button className='btn btn-outline-danger rounded-pill m-1 btn-resume-skill'><i class="fa-solid fa-database me-2"></i>{typedWords[10]}</button>
+          <button className='btn btn-outline-danger rounded-pill m-1 btn-resume-skill'><i class="devicon-icon devicon-csharp-plain colored me-2"></i>{typedWords[11]}</button>
 
         </div>
 
         <div className='d-flex flex-sm-row flex-column justify-content-start'>
-          <button className='btn btn-outline-danger rounded-pill m-1 button-hover-effect'><i class="devicon-icon devicon-dot-net-plain me-2"></i>{typedWords[12]}</button>
-          <button className='btn btn-outline-danger rounded-pill m-1'><i class="devicon-icon devicon-python-plain me-2"></i>{typedWords[13]}</button>
-          <button className='btn btn-outline-danger rounded-pill m-1'>
+          <button className='btn btn-outline-danger rounded-pill m-1 btn-resume-skill'><i class="devicon-icon devicon-dot-net-plain me-2"></i>{typedWords[12]}</button>
+          <button className='btn btn-outline-danger rounded-pill m-1 btn-resume-skill'><i class="devicon-icon devicon-python-plain me-2"></i>{typedWords[13]}</button>
+          <button className='btn btn-outline-danger rounded-pill m-1 btn-resume-skill '>
             <i class="devicon-icon devicon-mongodb-plain me-2"></i>
             {typedWords[14]}</button>
-          <button className='btn btn-outline-danger rounded-pill m-1'><i class="devicon-icon devicon-css3-plain-wordmark me-2"></i>{typedWords[15]}</button>
+          <button className='btn btn-outline-danger rounded-pill m-1 btn-resume-skill'><i class="devicon-icon devicon-css3-plain-wordmark me-2"></i>{typedWords[15]}</button>
         </div>
 
         <h5 className='mt-4'>{typedWords[16]}</h5>
         <div className='d-flex flex-sm-row flex-column justify-content-start'>
-          <button className='btn btn-outline-danger rounded-pill m-1'> <i class="devicon-linux-plain me-2"></i> {typedWords[17]}</button>
-          <button className='btn btn-outline-danger rounded-pill m-1'> <i class="devicon-apple-original me-2"></i>{typedWords[18]}</button>
-          <button className='btn btn-outline-danger rounded-pill m-1'><i class="devicon-ubuntu-plain me-2"></i>{typedWords[19]}</button>
-          <button className='btn btn-outline-danger rounded-pill m-1'><i class="devicon-windows8-original me-2"></i>{typedWords[20]}</button>
+          <button className='btn btn-outline-danger rounded-pill m-1 btn-resume-skill'> <i class="devicon-linux-plain me-2"></i> {typedWords[17]}</button>
+          <button className='btn btn-outline-danger rounded-pill m-1 btn-resume-skill'> <i class="devicon-apple-original me-2"></i>{typedWords[18]}</button>
+          <button className='btn btn-outline-danger rounded-pill m-1 btn-resume-skill'><i class="devicon-ubuntu-plain me-2"></i>{typedWords[19]}</button>
+          <button className='btn btn-outline-danger rounded-pill m-1 btn-resume-skill'><i class="devicon-windows8-original me-2"></i>{typedWords[20]}</button>
         </div>
 
         <h5 className='mt-4'>{typedWords[21]}</h5>
         <div className='d-flex flex-sm-row flex-column justify-content-start'>
-          <button className='btn btn-outline-danger rounded-pill m-1'> 
+          <button className='btn btn-outline-danger rounded-pill m-1 btn-resume-skill'> 
             <i class="devicon-photoshop-plain me-2"></i>
           {typedWords[22]}</button>
-          <button className='btn btn-outline-danger rounded-pill m-1'> 
+          <button className='btn btn-outline-danger rounded-pill m-1 btn-resume-skill'> 
             <i class="devicon-illustrator-plain me-2"></i>
           {typedWords[23]}</button>
-          <button className='btn btn-outline-danger rounded-pill m-1'>
+          <button className='btn btn-outline-danger rounded-pill m-1 btn-resume-skill'>
             <i class="devicon-figma-plain me-2"></i>
           {typedWords[24]}</button>
         </div>

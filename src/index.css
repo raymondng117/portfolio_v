@@ -126,7 +126,7 @@
      /* Removes default padding for list items */
  }
 
- .btn-outline-danger {
+ .btn-resume-skill {
     border-color: #f67da1 !important;
     font-weight: 700 !important;
     border-width: 2px;
@@ -156,3 +156,17 @@
     height: 100%; /* takes the 100 % height of its container (.box div)*/
 }
 
+.about-p {
+    line-height: 2 !important;
+}
+
+.btn-about {
+    border-color: #f67da1 !important;
+    font-weight: 700 !important;
+    border-width: 2px;
+    /* height: 40px !important; */
+}
+
+
+  
+  
