@@ -8,10 +8,8 @@ const Navbar = () => {
                 <div className="container-fluid" style={{ backgroundColor: "#f1356d" }}>
                     {/* Brand */}
                     <Link className="navbar-brand " to="/">
-                    <img className="icon-logo me-3" src="https://th.bing.com/th/id/OIG.TVr2ztQMLlRNI8KfikTH?pid=ImgGn" alt="it-sea-otter" />
-                   
-                   
-                    {/* SeeAllThe  */}
+                        <img className="icon-logo me-3" src="https://th.bing.com/th/id/OIG.TVr2ztQMLlRNI8KfikTH?pid=ImgGn" alt="it-sea-otter" />
+                        <span className="display-6 text-black fw-bolder icon-words">N.Y.W.</span>
                     </Link>
 
                     {/* Toggle button for collapsed menu on smaller screens */}
@@ -30,6 +28,11 @@ const Navbar = () => {
                     {/* Links */}
                     <div className="collapse navbar-collapse" style={{ backgroundColor: "#f1356d" }} id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto">
+                            <li className="nav-item">
+                                <Link to="/home" className="nav-link">
+                                    Home
+                                </Link>
+                            </li>
                             <li className="nav-item">
                                 <Link to="/about" className="nav-link">
                                     About

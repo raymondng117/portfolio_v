@@ -9,6 +9,10 @@
      background-color: #f1356d !important;
  }
 
+ .icon-words {
+    background-color: #f1356d !important;
+ }
+
  .navbar-brand {
     font-weight: 700 !important;
     font-size: 48px !important;
@@ -93,13 +97,6 @@
      margin-bottom: 40px;
  }
 
- .typing-effect {
-     display: inline-block;
-     border-right: 0.15em solid transparent;
-     white-space: nowrap;
-     overflow: hidden;
-     animation: typing 0.5s steps(30, end), blink-caret 0.5s step-end infinite;
- }
 
  .current-word {
      border-color: black;
@@ -120,27 +117,7 @@
      padding-left: 20px;
  }
 
- @keyframes typing {
-     from {
-         width: 0;
-     }
 
-     to {
-         width: 100%;
-     }
- }
-
- @keyframes blink-caret {
-
-     from,
-     to {
-         border-color: transparent;
-     }
-
-     50% {
-         border-color: black;
-     }
- }
 
  .resume-section ul {
      list-style: none;
@@ -149,18 +126,33 @@
      /* Removes default padding for list items */
  }
 
- .btn-outline-info {
-    color:  #f67da1 !important;
+ .btn-outline-danger {
+    border-color: #f67da1 !important;
     font-weight: 700 !important;
     border-width: 2px;
     width: 200px !important;
  }
 
 
+
  .fa-brands {
-    color:  #f67da1 !important; 
+    color:  #f1356d !important; 
  }
 
 .devicon-icon {
-    color: #f67da1 !important; 
+    color: #f1356d !important; 
 }
+
+.home-container {
+    width: 60%;
+}
+
+.home-img-row {
+    height: 400px !important;
+  }
+
+.home-img-1 {
+    width: 100%; /* takes the 100 % width of its container (.box div)*/
+    height: 100%; /* takes the 100 % height of its container (.box div)*/
+}
+
