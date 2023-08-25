@@ -55,8 +55,8 @@ const Home = () => {
     <>
       <div className="container home-container mt-5">
         <div className="row justify-content-between">
-          <div className='col-9 home-img-row'>
-            <div className="display-6 fw-bold mb-5">{currentIntroText.replace("undefined", "")}</div>
+          <div className='col-sm-8 col-12 home-img-row'>
+            <h1 className="display-6 fw-bold mb-5 text-danger">{currentIntroText.replace("undefined", "")}</h1>
             <p className="motto justify-content-start">{currentMottoText.replace("undefined", "")}</p>
 
             <p className='d-flex justify-content-between ms-2'>
@@ -70,7 +70,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className='col-md-3 d-none d-sm-block home-img-row '>
+          <div className='col-sm-3 col-12 d-sm-block home-img-row '>
             <img className='img-fluid home-img-1' src={process.env.PUBLIC_URL + "/images/home char.png"} alt="" />
           </div>
         </div>
