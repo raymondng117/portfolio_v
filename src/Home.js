@@ -40,7 +40,7 @@ const Home = () => {
       } else {
         clearInterval(interval);
       }
-    }, 40); // Typing speed
+    }, 50); // Typing speed
 
 
 
@@ -56,17 +56,17 @@ const Home = () => {
       <div className="container home-container mt-5">
         <div className="row justify-content-between">
           <div className='col-9 home-img-row'>
-            <div className="display-6 fw-bold mb-5">{currentIntroText}</div>
-            <p className="motto justify-content-start">{currentMottoText}</p>
+            <div className="display-6 fw-bold mb-5">{currentIntroText.replace("undefined", "")}</div>
+            <p className="motto justify-content-start">{currentMottoText.replace("undefined", "")}</p>
 
             <p className='d-flex justify-content-between ms-2'>
-              <span></span> <em>{currentQuoteText}</em>
+              <span></span> <em>{currentQuoteText.replace("undefined", "")}</em>
             </p>
             <p className="motto justify-content-start">
-              {currentJapaneseMottoText}
+              {currentJapaneseMottoText.replace("undefined", "")}
             </p>
             <p className='d-flex justify-content-between'>
-              <span></span> <em>{currentJapaneseText}</em>
+              <span></span> <em>{currentJapaneseText.replace("undefined", "")}</em>
             </p>
           </div>
 
