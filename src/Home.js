@@ -56,13 +56,15 @@ const Home = () => {
       <div className="container home-container mt-5">
         <div className="row justify-content-between">
           <div className='col-sm-8 col-12 home-img-row'>
-            <h1 className="display-6 fw-bold mb-5 text-danger">{currentIntroText.replace("undefined", "")}</h1>
-            <p className="motto justify-content-start">{currentMottoText.replace("undefined", "")}</p>
+            <h1 className="display-6 fw-bolder mb-5 text-danger">{currentIntroText.replace("undefined", "")}</h1>
 
-            <p className='d-flex justify-content-between ms-2'>
+            
+            <p className="motto fw-bold text-lg-start justify-content-start">{currentMottoText.replace("undefined", "")}</p>
+
+            <p className='d-flex justify-content-between mb-5'>
               <span></span> <em>{currentQuoteText.replace("undefined", "")}</em>
             </p>
-            <p className="motto justify-content-start">
+            <p className=" text-lg-start motto fw-bold justify-content-start">
               {currentJapaneseMottoText.replace("undefined", "")}
             </p>
             <p className='d-flex justify-content-between'>
