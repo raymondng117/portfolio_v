@@ -1,7 +1,7 @@
 {
-  "homepage": "https://Nywiz.github.io/portfolio",
+  "homepage": "https://raymondng117.github.io/portfolio_v",
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
@@ -17,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.1",
     "react-scripts": "5.0.1",
+    "styled-components": "^6.0.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

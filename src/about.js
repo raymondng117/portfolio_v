@@ -74,7 +74,6 @@ const About = () => {
                             <div className='d-flex mt-2'>
                                 <button className="btn btn-outline-danger btn-about rounded-pill ms-2"><img className="me-2" width="24" height="24" src="https://img.icons8.com/color/48/command.png" alt="command"/>Programming</button>
 
-
                                 <button className="btn btn-outline-danger btn-about rounded-pill ms-2"><img className="me-2" width="24" height="24" src="https://img.icons8.com/color/48/who-skin-type-1.png" alt="who-skin-type-1"/>INFP</button>
 
                                 <button className="btn btn-outline-danger btn-about rounded-pill ms-2"><img className="me-2" width="24" height="24" src="https://img.icons8.com/color/48/metal-music.png" alt="metal-music"/>Word hard Play hard</button>

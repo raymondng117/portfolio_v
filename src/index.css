@@ -2,22 +2,21 @@
  * {
      /* font-family: "Consolas"; */
      font-family: monospace, 'Courier New', Courier;
-     background-color: #F1F1F1
  }
 
  .navbar {
-     background-color: #f1356d !important;
+     /* background-color: #f1356d !important; */
  }
 
  .icon-words {
-    background-color: #f1356d !important;
+    /* background-color: #f1356d !important; */
  }
+ 
+
 
  .navbar-brand {
     font-weight: 700 !important;
     font-size: 48px !important;
-    font-family: 'Playfair Display' !important;
-    color: #333 !important;
     display: flex !important;
     align-items: center !important;
 }
@@ -31,16 +30,20 @@
  }
 
  .nav-item {
-     background-color: #f1356d;
+     /* background-color: #f1356d; */
  }
 
  #navbarSupportedContent {
-     background-color: #f1356d;
+     /* background-color: #f1356d; */
  }
 
  .nav-item {
-     /* //margin-left: 40px !important; */
+     margin-left: 40px !important;
  }
+
+ .nav-link {
+    color: #44435f !important;
+}
 
  .navbar-nav a {
      font-size: 18px !important;
@@ -58,7 +61,7 @@
  .card {
      border-width: 4px !important;
      border-radius: 10px !important;
-     box-shadow: 7px 7px 3px #f1356d;
+     box-shadow: 7px 7px 3px;
  }
 
  .card-image {
@@ -78,7 +81,7 @@
      margin: 10px;
      width: 32px;
      height: 32px;
-     color: #f1356d;
+     color: black;
  }
 
  .icon svg {

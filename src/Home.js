@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from 'react';
 
+
 const Home = () => {
+
   const [currentIntroText, setCurrentIntroText] = useState('');
   const [currentMottoText, setCurrentMottoText] = useState('');
   const [currentQuoteText, setCurrentQuoteText] = useState('');
   const [currentJapaneseMottoText, setCurrentJapaneseMottoText] = useState('');
   const [currentJapaneseText, setCurrentJapaneseText] = useState('');
 
-  const introText = '  Hi there! I am Raymond Ng! Welcome to my portfolio page!';
+  const introText = '  I am Raymond Ng! :)';
   const mottoText = ' "What you desperately learn becomes your talent."';
   const quoteText = '  --FULLMETAL ALCHEMIST';
   const japaneseMottoText = '  "自分が必死に学習したことが才能になる"';
@@ -49,35 +51,44 @@ const Home = () => {
     };
 
   }, []);
-  
+
 
   return (
-    <>
-      <div className="container home-container mt-5">
+    <div style={{
+      backgroundImage: `url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80")`, // Use a leading slash to indicate it's in the public directory
+      backgroundSize: 'cover',
+      backgroundPosition: 'center center',
+      backgroundRepeat: 'no-repeat',
+      width: '100%',
+      height: '100vh',
+    }}>
+      <div className="home-container me-2">
         <div className="row justify-content-between">
-          <div className='col-sm-8 col-12 home-img-row'>
-            <h1 className="display-6 fw-bolder mb-5 text-danger">{currentIntroText.replace("undefined", "")}</h1>
 
-            
+        <div className='ms-5 col-sm-3 col-12 d-sm-block p-3 mt-5'>
+            <img className='img-fluid home-img-1' src={process.env.PUBLIC_URL + "/images/home char.png"} alt="" /> 
+          </div>
+
+          <div className='ms-3 col-sm-8 col-12'>
+            <h1 className="display-2 fw-bolder mb-5">
+              {currentIntroText.replace("undefined", "")}
+            </h1>
             <p className="motto fw-bold text-lg-start justify-content-start">{currentMottoText.replace("undefined", "")}</p>
 
-            <p className='d-flex justify-content-between mb-5'>
+            <p className='d-flex fw-light justify-content-between mb-5'>
               <span></span> <em>{currentQuoteText.replace("undefined", "")}</em>
             </p>
-            <p className=" text-lg-start motto fw-bold justify-content-start">
+            <p className="motto fw-bold text-lg-start justify-content-start">
               {currentJapaneseMottoText.replace("undefined", "")}
             </p>
-            <p className='d-flex justify-content-between'>
+            <p className='d-flex fw-light justify-content-between mb-5'>
               <span></span> <em>{currentJapaneseText.replace("undefined", "")}</em>
             </p>
           </div>
 
-          <div className='col-sm-3 col-12 d-sm-block home-img-row '>
-            <img className='img-fluid home-img-1' src={process.env.PUBLIC_URL + "/images/home char.png"} alt="" />
-          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

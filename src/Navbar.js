@@ -3,13 +3,12 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <div className="container-fluid" style={{ backgroundColor: "#f1356d" }}>
+        <div className="container-fluid" >
             <nav className="navbar navbar-expand-lg navbar-light sticky-top">
-                <div className="container-fluid" style={{ backgroundColor: "#f1356d" }}>
+                <div className="container-fluid" >
                     {/* Brand */}
                     <Link className="navbar-brand " to="/">
-                        <img className="icon-logo me-3" src="https://th.bing.com/th/id/OIG.TVr2ztQMLlRNI8KfikTH?pid=ImgGn" alt="it-sea-otter" />
-                        <span className="display-6 text-black fw-bolder icon-words">N.Y.W.</span>
+                        <img className="icon-logo me-3" src={process.env.PUBLIC_URL + "/images/logo.jpg"} alt="logo" />
                     </Link>
 
                     {/* Toggle button for collapsed menu on smaller screens */}
@@ -26,31 +25,31 @@ const Navbar = () => {
                     </button>
 
                     {/* Links */}
-                    <div className="collapse navbar-collapse" style={{ backgroundColor: "#f1356d" }} id="navbarSupportedContent">
+                    <div className="collapse navbar-collapse"  id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
                                 <Link to="/home" className="nav-link">
-                                    Home
+                                    HOME
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/about" className="nav-link">
-                                    About
+                                    ABOUT
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/resume" className="nav-link">
-                                    Resume
+                                    RESUME
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/projects" className="nav-link">
-                                    Projects
+                                    PROJECTS
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/contact" className="nav-link">
-                                    Contact
+                                    CONTACT
                                 </Link>
                             </li>
                         </ul>
