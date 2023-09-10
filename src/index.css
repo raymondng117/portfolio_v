@@ -174,3 +174,24 @@ ul {
 .motto {
     font-family: Courier !important;
 }
+
+.email {
+    color: #8e8e9f !important;
+}
+
+
+.animated-image {
+    animation: moveLeftAndRight 1s linear infinite;
+  }
+
+@keyframes moveLeftAndRight {
+    0% {
+      transform: translateX(0); 
+    }
+    50% {
+      transform: translateX(50px); 
+    }
+    100% {
+      transform: translateX(0); 
+    }
+  }

@@ -53,6 +53,7 @@ const Projects = () => {
                 </div>
 
 
+
                 {/* title */}
                 <div className="row justify-content-center mt-4" >
                     <p className="display-4 text-center mt-4">Design</p>

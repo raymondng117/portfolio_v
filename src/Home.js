@@ -73,10 +73,6 @@ const Home = () => {
       <div className="home-container">
         <div className="row justify-content-between align-content-center">
 
-          {/* <div className='ms-5 col-sm-3 col-12 d-sm-block p-3 mt-5'>
-            <img className='img-fluid home-img-1' src={process.env.PUBLIC_URL + "/images/home char.png"} alt="" /> 
-          </div> */}
-
           <div className=' col-12 ms-5 mt-5'>
             <h1 className="display-4 fw-bolder ">
               {currentIntroText.replace("undefined", "")}
