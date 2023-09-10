@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <div className="container-fluid" >
+        <div className="container-fluid nav-bar-container" >
             <nav className="navbar navbar-expand-lg navbar-light sticky-top">
                 <div className="container-fluid" >
                     {/* Brand */}

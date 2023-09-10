@@ -49,9 +49,9 @@ const About = () => {
                     <Col lg={8} className=' ml-4'>
                         <div className="about-content">
                             <div>
-                                <h1 className='display-4'>About me</h1>
+                                <h1 className='display-4 fw-bolder'>About me . . .</h1> 
                                 <p className='about-p ms-3'>
-                                    I'm based in Hong Kong but now living in Canada as an international student majoring web development. I'm passionate about creating websites from scratch. I've been studying web development  <img width="24" height="24" src="https://img.icons8.com/color/48/working-with-a-laptop.png" alt="working-with-a-laptop" /> at Algonquin College for about six months.
+                                    I'm based in Hong Kong <img width="48" height="48" src="https://img.icons8.com/color/48/hongkong-flag.png" alt="hongkong-flag"/> but now living in Canada as an international student majoring web development. I'm passionate about learning to create full-stack websites. I've been studying web development <img width="24" height="24" src="https://img.icons8.com/color/48/working-with-a-laptop.png" alt="working-with-a-laptop" /> at Algonquin College.
                                 </p>
                                 <p className='about-p ms-3'>
                                     I'm currently looking for a <strong>co-op opportunity</strong> in an IT-related company. I'm eager to contribute my skills and be a valuable team member. If you'd like to get in touch, feel free to reach out!
@@ -59,26 +59,26 @@ const About = () => {
                             </div>
 
                             <div className='d-flex mt-5'>
-                                <button className="btn btn-outline-danger btn-about rounded-pill ms-2"> <img className="me-2" width="24" height="24" src="https://img.icons8.com/color/48/controller.png" alt="controller" />Addicted RPG/FPS game player</button>
+                                <button className="btn btn-outline-secondary btn-about rounded-pill ms-2"> <img className="me-2" width="24" height="24" src="https://img.icons8.com/color/48/controller.png" alt="controller" />Addicted RPG/FPS game player</button>
 
 
-                                <button className="btn btn-outline-danger btn-about rounded-pill ms-2"><img className="me-2" width="24" height="24" src="https://img.icons8.com/color/48/football2--v1.png" alt="football2--v1" />Football</button>
+                                <button className="btn btn-outline-secondary btn-about rounded-pill ms-2"><img className="me-2" width="24" height="24" src="https://img.icons8.com/color/48/football2--v1.png" alt="football2--v1" />Football</button>
 
-                                <button className="btn btn-outline-danger btn-about rounded-pill ms-2"><img
+                                <button className="btn btn-outline-secondary btn-about rounded-pill ms-2"><img
                                     className="me-2" width="24" height="24" src="https://img.icons8.com/color/48/airplane-take-off--v1.png" alt="airplane-take-off--v1" />Travel</button>
 
-                                <button className="btn btn-outline-danger btn-about rounded-pill ms-2"><img
+                                <button className="btn btn-outline-secondary btn-about rounded-pill ms-2"><img
                                     className="ms-2" width="24" height="24" src="https://img.icons8.com/color/48/growing-money--v2.png" alt="growing-money--v2" />Investment</button>
                             </div>
 
                             <div className='d-flex mt-2'>
-                                <button className="btn btn-outline-danger btn-about rounded-pill ms-2"><img className="me-2" width="24" height="24" src="https://img.icons8.com/color/48/command.png" alt="command"/>Programming</button>
+                                <button className="btn btn-outline-secondary btn-about rounded-pill ms-2"><img className="me-2" width="24" height="24" src="https://img.icons8.com/color/48/command.png" alt="command"/>Programming</button>
 
-                                <button className="btn btn-outline-danger btn-about rounded-pill ms-2"><img className="me-2" width="24" height="24" src="https://img.icons8.com/color/48/who-skin-type-1.png" alt="who-skin-type-1"/>INFP</button>
+                                <button className="btn btn-outline-secondary btn-about rounded-pill ms-2"><img className="me-2" width="24" height="24" src="https://img.icons8.com/color/48/who-skin-type-1.png" alt="who-skin-type-1"/>INFP</button>
 
-                                <button className="btn btn-outline-danger btn-about rounded-pill ms-2"><img className="me-2" width="24" height="24" src="https://img.icons8.com/color/48/metal-music.png" alt="metal-music"/>Word hard Play hard</button>
+                                <button className="btn btn-outline-secondary btn-about rounded-pill ms-2"><img className="me-2" width="24" height="24" src="https://img.icons8.com/color/48/metal-music.png" alt="metal-music"/>Word hard Play hard</button>
 
-                                <button className="btn btn-outline-danger btn-about rounded-pill ms-2"><img className="me-2" width="24" height="24" src="https://img.icons8.com/color/48/fire-heart--v1.png" alt="fire-heart--v1"/>Enthusiasm</button>
+                                <button className="btn btn-outline-secondary btn-about rounded-pill ms-2"><img className="me-2" width="24" height="24" src="https://img.icons8.com/color/48/fire-heart--v1.png" alt="fire-heart--v1"/>Enthusiasm</button>
                             </div>
                         </div>
 
