@@ -180,7 +180,7 @@ ul {
 }
 
 
-.animated-image {
+.animated-left-right-hand {
     animation: moveLeftAndRight 1s linear infinite;
   }
 
