@@ -44,7 +44,7 @@ const Resume = () => {
   ];
 
   const downloadResume = () => {
-    const resumePath = process.env.PUBLIC_URL + '/resume.pdf';
+    const resumePath = process.env.PUBLIC_URL + '/resume1.pdf';
     window.open(resumePath, '_blank');
   };
 
