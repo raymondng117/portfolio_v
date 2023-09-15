@@ -40,11 +40,11 @@ const Resume = () => {
 
 
 
-    "Full resume"
+    "Learn more"
   ];
 
   const downloadResume = () => {
-    const resumePath = process.env.PUBLIC_URL + '/resume.pdf';
+    const resumePath = process.env.PUBLIC_URL + '/resume1.pdf';
     window.open(resumePath, '_blank');
   };
 
@@ -112,7 +112,7 @@ const Resume = () => {
 
       
         <div className='d-flex justify-content-center'>
-          {<button className='btn btn-secondary btn-lg mt-5' onClick={downloadResume}>{typedWords[25]}</button>}
+          {<button className='btn btn-secondary btn-lg mt-5' onClick={downloadResume}>{typedWords[25]}</button>} 
         </div> 
 
       </div>
