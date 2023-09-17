@@ -36,6 +36,22 @@ const Projects = () => {
                     </div>
                 </div>
 
+                {/*Calculator*/}
+                <div className="col-md-4 col-sm-6 mt-3" >
+                    <div className="card text-black border-4 m-2" >
+                        <div className="card-image" >
+                            <img class="card-img-top border-dark border-4 " src="https://th.bing.com/th/id/OIG.dCZAhKbJKQu3aHkQK1GT?pid=ImgGn" alt="Live chat" />
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Calculator</h5>
+                            <p class="card-text text-sm">This calculation application employs typical React functionalities like useState and useEffect to handle complex chained calculations and support negative number computations.</p>
+                            <a href=" https://raymondng117.github.io/freeCodeCamp_calculator/" class="btn btn-primary me-2">Live demo</a>
+                            <a href="https://github.com/raymondng117/freeCodeCamp_calculator" class="btn btn-primary">More details</a>
+                        </div>
+                    </div>
+                </div>
+
 
                 {/* APOD search */}
                 <div className="col-md-4 col-sm-6 mt-3" >
