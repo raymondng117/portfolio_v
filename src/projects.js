@@ -41,7 +41,7 @@ const Projects = () => {
                 <div className="col-md-4 col-sm-6 mt-3" >
                     <div className="card text-black border-4 m-2" >
                         <div className="card-image" >
-                            <img class="card-img-top border-dark border-4 " src="https://th.bing.com/th/id/OIG.VZiHGrtrU2oNw2i7jO3G?pid=ImgGn" alt="MicrosoftAIimage" />
+                            <img class="card-img-top border-dark border-4 " src="https://th.bing.com/th/id/OIG.rmAGNkjypW7JBXj6epXG?pid=ImgGn" alt="MicrosoftAIimage" />
                         </div>
 
                         <div class="card-body">
