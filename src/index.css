@@ -195,3 +195,7 @@ ul {
       transform: translateX(0); 
     }
   }
+
+.project-links {
+    width: 40% !important;
+}
