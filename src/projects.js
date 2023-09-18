@@ -37,6 +37,21 @@ const Projects = () => {
                     </div>
                 </div>
 
+                {/*Calculator Tetsing*/}
+                <div className="col-md-4 col-sm-6 mt-3" >
+                    <div className="card text-black border-4 m-2" >
+                        <div className="card-image" >
+                            <img class="card-img-top border-dark border-4 " src="https://th.bing.com/th/id/OIG.ZfGCQKu.EA8xp904z4KP?pid=ImgGn" alt="MicrosoftAIimage" />
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title fw-bolder">QA for online Calculator</h5>
+                            <p class="card-text text-sm">This app utilizes a combination of QA libraries like  <strong>mocha</strong>, <strong>chai</strong>, <strong>dotenv</strong> and <strong>selenium</strong> to conduct a basic QA for my calculator project.</p>
+                            <a href="https://github.com/raymondng117/onlineCalculatorTesting" class="btn btn-primary project-links">Full Codes</a>
+                        </div>
+                    </div>
+                </div>
+
                 {/*Random Quotes*/}
                 <div className="col-md-4 col-sm-6 mt-3" >
                     <div className="card text-black border-4 m-2" >
@@ -79,7 +94,7 @@ const Projects = () => {
 
                         <div class="card-body">
                             <h5 class="card-title fw-bolder">APOD search</h5>
-                            <p class="card-text text-sm">This App makes use of API, local storage and fetch method to create a page where allow users to fetch images from NASA and save them in local storage.</p>
+                            <p class="card-text text-sm">This App uses NASA API and localStorage to serves a page allowing users save their favourite images in local storage.</p>
                             <a href="https://github.com/raymondng117/liveChat" class="btn btn-primary project-links">Full Codes</a>
                         </div>
                     </div>
@@ -102,7 +117,7 @@ const Projects = () => {
                             <div class="card-body">
                                 <h5 class="card-title fw-bolder">Wander World</h5>
                                 <p class="card-text text-sm">This project employs a design application called Figma to create a travel-agency-like webpage. </p>
-                                <a href="https://www.figma.com/file/ZPtFbXJngR0s4yCepppOOH/Part1%3AWireframes?type=design&node-id=737-1651&mode=design&t=sdt1ezf0vsGjbfHk-0" class="btn btn-primary project-links">Full Codes</a>
+                                <a href="https://www.figma.com/file/ZPtFbXJngR0s4yCepppOOH/Part1%3AWireframes?type=design&node-id=737-1651&mode=design&t=sdt1ezf0vsGjbfHk-0" class="btn btn-primary ">More details</a>
                             </div>
                         </div>
                     </div>
