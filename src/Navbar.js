@@ -38,15 +38,16 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/resume" className="nav-link">
-                                    RESUME
-                                </Link>
-                            </li>
-                            <li className="nav-item">
                                 <Link to="/projects" className="nav-link">
                                     PROJECTS
                                 </Link>
                             </li>
+                            <li className="nav-item">
+                                <Link to="/resume" className="nav-link">
+                                    RESUME
+                                </Link>
+                            </li>
+
                             <li className="nav-item">
                                 <Link to="/contact" className="nav-link">
                                     CONTACT
