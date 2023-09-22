@@ -199,3 +199,15 @@ ul {
 .project-links {
     width: 40% !important;
 }
+
+.card {
+    min-height: 550px !important;
+}
+
+.card-title {
+    color: #44435f !important;
+}
+
+.card-subtitle {
+    font-style: italic;
+}
