@@ -14,7 +14,7 @@ const Projects = () => {
                                 <img class="card-img-top " src="https://th.bing.com/th/id/OIG.cfF3eF2SxmVZ6vavcfac?pid=ImgGn&w=1024&h=1024&rs=1" alt="MicrosoftAIimage" />
                             </div>
                             <h3 class="card-title fw-bolder mt-2">Wanderland RPG</h3>
-                            <p class="card-subtitle mb-2 text-secondary fw-bold">Angular.js || localStorage || Bootstrap || Express.js || JSON</p>
+                            <p class="card-subtitle mb-2 text-secondary fw-bold">Angular.js || Angular-route.js || Angular-animate.js || Bootstrap</p>
                             <p class="card-text text-sm">This App creates a web application where users for now can customize own battle team for the adventure.</p>
                             <a href="https://raymondng117.github.io/wanderlandRPG/" class="btn btn-primary me-2 project-links">Live demo</a>
                             <a href="https://github.com/raymondng117/wanderlandRPG" class="btn btn-primary project-links">Full Codes</a>
