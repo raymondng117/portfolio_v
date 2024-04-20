@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.71173dbf.css",
-    "main.js": "/portfolio/static/js/main.80dd0818.js",
-    "static/media/bootstrap-icons.woff?": "/portfolio/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
-    "static/media/bootstrap-icons.woff2?": "/portfolio/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
-    "index.html": "/portfolio/index.html",
-    "main.71173dbf.css.map": "/portfolio/static/css/main.71173dbf.css.map",
-    "main.80dd0818.js.map": "/portfolio/static/js/main.80dd0818.js.map"
+    "main.css": "/portfolio_v/static/css/main.2a860b7b.css",
+    "main.js": "/portfolio_v/static/js/main.84e6e3f3.js",
+    "static/media/bootstrap-icons.woff?": "/portfolio_v/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/portfolio_v/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "index.html": "/portfolio_v/index.html",
+    "main.2a860b7b.css.map": "/portfolio_v/static/css/main.2a860b7b.css.map",
+    "main.84e6e3f3.js.map": "/portfolio_v/static/js/main.84e6e3f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.71173dbf.css",
-    "static/js/main.80dd0818.js"
+    "static/css/main.2a860b7b.css",
+    "static/js/main.84e6e3f3.js"
   ]
 }
