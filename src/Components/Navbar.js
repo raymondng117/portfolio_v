@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import '../CSS/Navbar.css'
 
 const Navbar = () => {
+    const [navbarShowing, setNavBarShowing] = useState(false);
+
+    const handleMouseOutFromNav = () => {
+            setNavBarShowing (false);
+    }
+
+    const handleMouseEnterNav = () => {
+        setNavBarShowing (true);
+    }
+ 
     return (
-        <div className="container-fluid nav-bar-container" >
-            <nav className="navbar navbar-expand-lg navbar-light sticky-top">
+        <div className="nav-bar-container" onMouseEnter={handleMouseEnterNav}>
+            {navbarShowing && <nav className="navbar navbar-expand-lg navbar-light sticky-top"  onMouseOut={handleMouseOutFromNav} onMouseOver={handleMouseEnterNav} >
                 <div className="container-fluid" >
                     {/* Brand */}
                     <Link className="navbar-brand " to="/">
@@ -56,7 +67,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </nav>}
         </div>
     );
 };

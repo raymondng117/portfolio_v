@@ -52,21 +52,15 @@ const Resume = () => {
     <div className="resume-container">
       <div className="resume-section">
 
-
         {/* Education */}
         <h1 className="display-5 fw-bolder">{typedWords[0]}</h1>
-
 
         <h5 className="mt-3">{typedWords[1]}</h5>
         <ul className="m-2">
           <li>{typedWords[2]} <button button className='btn btn-outline-secondary rounded-pill m-1 btn-resume-skill'>{typedWords[3]}</button></li> 
         </ul>
-
         <h5 className="mt-3">{typedWords[4]}</h5>
         <h5 className="mt-3">{typedWords[5]}</h5>
-
-
-
 
         {/* Skills */}
         <h1 className='display-5 fw-bolder mt-5'>{typedWords[6]}</h1>
