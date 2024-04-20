@@ -23,7 +23,17 @@
     width: 40px;
     height: 40px;
     border: none !important;
+    animation: moveBackAndForth 0.5s infinite alternate;
 }
+
+@keyframes moveBackAndForth {
+    from {
+      transform: translateX(-30px);
+    }
+    to {
+      transform: translateX(10px); /* Adjust the distance of movement as needed */
+    }
+  }
 
 .arrow-column {
     background-color: #0077b6;
